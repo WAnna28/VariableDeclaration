@@ -38,13 +38,7 @@ namespace VariableDeclaration
             double dNewShort = new(); // Set to 0.
             DateTime dtNewShort = new(2020, 5, 5); // Set to 1/1/0001 12:00:00 AM
 
-            int? k = null;
-            Console.WriteLine(k);
-
-            string p = "mklk;k;k;";
-            Console.WriteLine(p[p.Length + 10]);
-
-             Console.WriteLine("Your data: {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}",
+            Console.WriteLine("Your data: {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}",
                 testInt, testDouble, b1, b2, b3, singleTest, testDoubleDefault, testFloatDefault, testCharDefault, testStringDefault, dNewLong, dtNewLong, dNewShort, dtNewShort);
 
             Console.ReadLine();
